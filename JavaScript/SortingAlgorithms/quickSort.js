@@ -1,4 +1,4 @@
-import { myArr } from "../data";
+import myArr from "../data.js";
 
 function quickSort(arr) {
   const pivot = arr[0];
