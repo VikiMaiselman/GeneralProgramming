@@ -10,12 +10,11 @@
 import myArr from "./../data.js";
 
 function bubbleSort(arr) {
-  const n = arr.length;
   let swapped = true;
 
   do {
     swapped = false;
-    for (let i = 0; i < n - 1; i++) {
+    for (let i = 0; i < arr.length - 1; i++) {
       if (arr[i] > arr[i + 1]) {
         // Swap elements if they are in the wrong order
         [arr[i], arr[i + 1]] = [arr[i + 1], arr[i]];
